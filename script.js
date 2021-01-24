@@ -10,7 +10,9 @@ async function selectMediaStream() {
       videoElement.play();
     };
   } catch (error) {
-    alert("Hmm, something unexpected happened. Please retry later.");
+    alert(
+      "Screen selection was unsuccessful. Please refresh if you would like to try again."
+    );
   }
 }
 
